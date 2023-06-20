@@ -8,7 +8,7 @@ describe('Testando a média', () => {
     })
 
     test('Teste MM - 2', () => {
-        expect(nota.mediaCA(6.5)).toBe('MM - Médio')
+        expect(nota.mediaCA(6)).toBe('MM - Médio')
     })
 
     test('Teste SS', () => {
@@ -16,11 +16,11 @@ describe('Testando a média', () => {
     })
 
     test('Teste SS - 2', () => {
-        expect(nota.mediaCA(9)).toBe('SS - Superior')
+        expect(nota.mediaCA(10)).toBe('SS - Superior')
     })
 
     test('Teste MM - 3', () => {
-        expect(nota.mediaCA(5.7)).toBe('MM - Médio')
+        expect(nota.mediaCA(5.5)).toBe('MM - Médio')
     })
 
     test('Teste MI', () => {
@@ -28,7 +28,7 @@ describe('Testando a média', () => {
     })
 
     test('Teste II', () => {
-        expect(nota.mediaCA(0.2)).toBe('II - Inferior')
+        expect(nota.mediaCA(0.5)).toBe('II - Inferior')
     }) 
 
     test('Teste nota inválida', () => {
